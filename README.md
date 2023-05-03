@@ -16,12 +16,12 @@ Vamos partir de um diagrama de banco, onde as tabelas já estão dadas.
 
 # Tecnologias utilizadas
 
-Usaremos um ORM, um mapeador de objeto relacional.
-Sequelize é o nome do ORM que usaremos.
-O Sequelize abstrai os comandos de operações de SQL
-No nosso projeto, não iremos inserir queries de SQL dentro da aplicação que está escrita em JavaScript, utilizaremos apenas JavaScript.
-Aplicação organizada no padrão MVC
-CRUD com Sequelize
+- Usaremos um ORM, um mapeador de objeto relacional.
+- Sequelize é o nome do ORM que usaremos.
+  O Sequelize abstrai os comandos de operações de SQL
+  No nosso projeto, não iremos inserir queries de SQL dentro da aplicação que está escrita em JavaScript, utilizaremos apenas JavaScript.
+- Aplicação organizada no padrão MVC
+- CRUD com Sequelize
 
 # Inicialização
 
