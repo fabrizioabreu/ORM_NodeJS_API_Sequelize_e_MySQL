@@ -2,7 +2,8 @@
 
 Sequelize e ORM com NodeJS e MySQL
 
---- Descrição do projeto ---
+# Descrição do projeto
+
 API para um sistema de controle de alunos e turmas de uma escola de inglês.
 Vamos partir de um diagrama de banco, onde as tabelas já estão dadas.
 
