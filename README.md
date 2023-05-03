@@ -9,10 +9,10 @@ Vamos partir de um diagrama de banco, onde as tabelas já estão dadas.
 
 # Ferramentas utilizadas
 
-MySQL
-NodeJs v10.20.1
-Npm 6.14.4
-Postman
+- MySQL
+- NodeJs v10.20.1
+- Npm 6.14.4
+- Postman
 
 # Tecnologias utilizadas
 
