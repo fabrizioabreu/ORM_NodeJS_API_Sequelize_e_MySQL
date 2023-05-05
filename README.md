@@ -1,10 +1,6 @@
 # Sequelize e ORM com NodeJS e MySQL
 
-<p align="center">
-<img src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?&style=for-the-badge&color=F7DF1E" />&nbsp;&nbsp;
-</p>
-
-<p align="center">
+<p>
 	<a href="https://www.linkedin.com/in/fabrizio-abreu-88925587/"><img src="https://img.icons8.com/bubbles/50/000000/linkedin.png" alt="LinkedIn"/></a>
 	<a href="https://www.instagram.com/fabrizioabreuu/"><img src="https://img.icons8.com/bubbles/50/000000/instagram.png" alt="Instagram"/></a>
 </p>
@@ -20,6 +16,13 @@ Vamos partir de um diagrama de banco, onde as tabelas já estão dadas.
 - NodeJs v10.20.1
 - Npm 6.14.4
 - Postman
+
+# Dependências instaladas
+
+- npm install mysql2
+- npm install --save-dev nodemon
+- npm install sequelize sequelize-cli path
+- npx sequelize-cli init (https://sequelize.org/docs/v6/other-topics/migrations/)
 
 # Tecnologias utilizadas
 
