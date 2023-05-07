@@ -1,4 +1,4 @@
-# Sequelize e ORM com NodeJS e MySQL
+# :file_cabinet: Sequelize e ORM com NodeJS e MySQL
 
 <p>
 	<a href="https://www.linkedin.com/in/fabrizio-abreu-88925587/"><img src="https://img.icons8.com/bubbles/50/000000/linkedin.png" alt="LinkedIn"/></a>
@@ -19,10 +19,25 @@ Vamos partir de um diagrama de banco, onde as tabelas já estão dadas.
 
 # Dependências instaladas
 
-- npm install mysql2
-- npm install --save-dev nodemon
-- npm install sequelize sequelize-cli path
-- npx sequelize-cli init (https://sequelize.org/docs/v6/other-topics/migrations/)
+```sh
+npm install mysql2
+```
+
+```sh
+npm install --save-dev nodemon
+```
+
+(https://sequelize.org/)
+
+```sh
+npm install sequelize sequelize-cli path
+```
+
+(https://sequelize.org/docs/v6/other-topics/migrations/)
+
+```sh
+npx sequelize-cli init
+```
 
 # Tecnologias utilizadas
 
@@ -35,7 +50,7 @@ Vamos partir de um diagrama de banco, onde as tabelas já estão dadas.
 
 # Inicialização
 
-- Para iniciar o projeto primeiro precisa instalar as dependências com: npm install
+- Para iniciar o projeto primeiro precisa instalar as dependências com: `sh npm install `
 - Para rodar o projeto, utilizar o comando: node api/index.js
 
 - Projeto inicia na porta 3000.
