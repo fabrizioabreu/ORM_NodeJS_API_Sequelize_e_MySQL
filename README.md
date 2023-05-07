@@ -39,6 +39,12 @@ npm install sequelize sequelize-cli path
 npx sequelize-cli init
 ```
 
+ou
+
+```sh
+npm sequelize init
+```
+
 # Tecnologias utilizadas
 
 - Usaremos um ORM, um mapeador de objeto relacional.
