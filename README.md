@@ -91,3 +91,22 @@ Rodando Migration
 ```sh
 npx sequelize-cli db:migrate
 ```
+
+Voltar uma Migration <!-- Este comando vai desfazer somente a última migração feita -->
+
+```sh
+npx sequelize-cli db:migrate:undo
+```
+
+Desfazendo seeds
+Para desfazer o último seed feito.
+
+```sh
+npx sequelize db:seed:undo
+```
+
+Para desfazer seeds de uma tabela específica.
+
+```sh
+npx sequelize-cli db:seed:undo --seed nome-do-arquivo
+```
