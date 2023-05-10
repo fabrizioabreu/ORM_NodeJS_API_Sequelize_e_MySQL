@@ -65,3 +65,29 @@ npm sequelize init
 # Status do projeto
 
 Em desenvolvimento
+
+# Notas:
+
+Cria uma model
+
+```sh
+npx sequelize-cli model:create --name Pessoas --attributes nome:string,ativo:boolean,email:string,role:string
+```
+
+Cria uma seed
+
+```sh
+npx sequelize-cli seed:generate --name demo-pessoa
+```
+
+Enviar seed para DB
+
+```sh
+npx npx sequelize-cli db:seed:all
+```
+
+Rodando Migration
+
+```sh
+npx sequelize-cli db:migrate
+```
