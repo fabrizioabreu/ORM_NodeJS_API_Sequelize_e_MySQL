@@ -74,22 +74,28 @@ Cria DB pelo Docker
 docker run -p 3306:3306 --name my_mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:8.0
 ```
 
-Cria uma model
+Cria uma Tabela Pessoas
 
 ```sh
 npx sequelize-cli model:create --name Pessoas --attributes nome:string,ativo:boolean,email:string,role:string
 ```
 
-Cria uma seed
+Cria uma Tabela Niveis
 
 ```sh
-npx sequelize-cli seed:generate --name demo-pessoa
+npx sequelize-cli model:create --name Niveis --attributes descr_nivel:string
 ```
 
-Enviar seed para DB
+Cria uma Tabela Turmas
 
 ```sh
-npx npx sequelize-cli db:seed:all
+npx sequelize-cli model:create --name Turmas --attributes data_inicio:dateonly
+```
+
+Cria uma Tabela Matriculas
+
+```sh
+npx sequelize-cli model:create --name Matriculas --attributes status:string
 ```
 
 Rodando Migration
@@ -102,6 +108,18 @@ Voltar uma Migration <!-- Este comando vai desfazer somente a última migração
 
 ```sh
 npx sequelize-cli db:migrate:undo
+```
+
+Cria uma seed
+
+```sh
+npx sequelize-cli seed:generate --name demo-pessoa
+```
+
+Enviar seed para DB
+
+```sh
+npx npx sequelize-cli db:seed:all
 ```
 
 Desfazendo seeds
