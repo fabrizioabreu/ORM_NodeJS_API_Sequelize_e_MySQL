@@ -68,6 +68,12 @@ Em desenvolvimento
 
 # Notas:
 
+Cria DB pelo Docker
+
+```sh
+docker run -p 3306:3306 --name my_mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:8.0
+```
+
 Cria uma model
 
 ```sh
