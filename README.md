@@ -110,10 +110,13 @@ Voltar uma Migration <!-- Este comando vai desfazer somente a última migração
 npx sequelize-cli db:migrate:undo
 ```
 
-Cria uma seed
+Cria Seed
 
 ```sh
 npx sequelize-cli seed:generate --name demo-pessoa
+npx sequelize-cli seed:generate --name demo-nivel
+npx sequelize-cli seed:generate --name demo-turmas
+npx sequelize-cli seed:generate --name demo-matriculas
 ```
 
 Enviar seed para DB
